@@ -1,3 +1,6 @@
+import edu.fcps.karel2.Display;
+import edu.fcps.karel2.Robot;
+import javax.swing.JOptionPane;
 import org.asl.karelx.Wanderer;
 
 /**
@@ -6,7 +9,12 @@ import org.asl.karelx.Wanderer;
  */
 public class Horse extends Wanderer {
 
-	//  TODO Add one or more constructors, as needed
+public class Horse {
+	 
+	 public static void main(String[] args) {
+    
+		 Horse riley = new Horse(1, 1, Display.SOUTHWEST, Display.INFINITY);
+	 }
 	
 	/**
 	 * Wander around in random directions until a specified number of steps have been taken.
@@ -18,6 +26,12 @@ public class Horse extends Wanderer {
 	 * Ex. horse.wander(13, 4) should drop a beeper every four steps until thirteen steps are taken
 	 */
 	public void wander(int count, int timer) {
-		// TODO You implement this
+      riley.wander( int 36, int 7);
+   while riley.hasBeepers;
+      riley.move(C++);
+      
+      riley.explode();
 	}
-}
+   }
+
+ }
